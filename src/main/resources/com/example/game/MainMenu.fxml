@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.game.MainMenuController">
+    <Button text="Start Game" fx:id="startGameButton" layoutX="300" layoutY="200" prefWidth="200" prefHeight="50" onAction="#startGame"/>
+    <Button text="Quit" fx:id="quitButton" layoutX="300" layoutY="300" prefWidth="200" prefHeight="50" onAction="#quitGame"/>
+</AnchorPane>
